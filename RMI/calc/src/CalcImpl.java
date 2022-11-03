@@ -8,10 +8,10 @@ public class CalcImpl extends UnicastRemoteObject implements Calc {
 		// TODO Auto-generated constructor stub
 	}
 	@Override
-	public String doAdd(double d1,double d2) {
+	public double doAdd(double d1,double d2) {
 		// TODO Auto-generated method stub
 		
-		return "d1+d2";
+		return d1+d2;
 	}
 	
 }
